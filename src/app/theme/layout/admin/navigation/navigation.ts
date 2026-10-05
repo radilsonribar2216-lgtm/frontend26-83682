@@ -53,6 +53,54 @@ export const NavigationItems: NavigationItem[] = [
         url: '/inicio/razas',
         icon: 'feather icon-list',
         classes: 'nav-item'
+      },
+      {
+        id: 'medicos',
+        title: 'Gestión de Médicos',
+        type: 'item',
+        url: '/inicio/medicos',
+        icon: 'feather icon-activity',
+        classes: 'nav-item'
+      },
+      {
+        id: 'citas-medicas',
+        title: 'Gestión de Citas Médicas',
+        type: 'item',
+        url: '/inicio/citas-medicas',
+        icon: 'feather icon-calendar',
+        classes: 'nav-item'
+      },
+      {
+        id: 'formulas-medicas',
+        title: 'Gestión de Fórmulas Médicas',
+        type: 'item',
+        url: '/inicio/formulas-medicas',
+        icon: 'feather icon-file-text',
+        classes: 'nav-item'
+      },
+      {
+        id: 'especializaciones',
+        title: 'Gestión de Especializaciones',
+        type: 'item',
+        url: '/inicio/especializaciones',
+        icon: 'feather icon-award',
+        classes: 'nav-item'
+      },
+      {
+        id: 'historias-medicas',
+        title: 'Gestión de Historias Médicas',
+        type: 'item',
+        url: '/inicio/historias-medicas',
+        icon: 'feather icon-clipboard',
+        classes: 'nav-item'
+      },
+      {
+        id: 'anotaciones-historia',
+        title: 'Gestión de Anotaciones de Historia',
+        type: 'item',
+        url: '/inicio/anotaciones-historia',
+        icon: 'feather icon-edit',
+        classes: 'nav-item'
       }, 
     ]
   },  
