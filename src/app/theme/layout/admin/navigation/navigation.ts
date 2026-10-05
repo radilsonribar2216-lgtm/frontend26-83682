@@ -37,6 +37,22 @@ export const NavigationItems: NavigationItem[] = [
         url: '/inicio/mascotas',
         icon: 'feather icon-home',
         classes: 'nav-item'
+      },
+      {
+        id: 'clientes',
+        title: 'Gestión de Clientes',
+        type: 'item',
+        url: '/inicio/clientes',
+        icon: 'feather icon-users',
+        classes: 'nav-item'
+      },
+      {
+        id: 'razas',
+        title: 'Gestión de Razas',
+        type: 'item',
+        url: '/inicio/razas',
+        icon: 'feather icon-list',
+        classes: 'nav-item'
       }, 
     ]
   },  

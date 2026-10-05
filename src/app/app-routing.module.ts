@@ -3,22 +3,25 @@ import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './theme/layout/admin/admin.component';
 import { UsuarioComponent } from './demo/pages/usuario/usuario.component';
 import { MascotaComponent } from './demo/pages/mascota/mascota.component';
-
+import { ClienteComponent } from './demo/pages/cliente/cliente.component';
+import { RazaComponent } from './demo/pages/raza/raza.component';
 
 export const routes: Routes = [
   {
     path: '',
     redirectTo: 'inicio',
     pathMatch: 'full'
-  },  
+  },
   {
     path: 'inicio',
     component: AdminComponent,
     data: { title: 'Inicio' },
-    children: [      
+    children: [
       { path: 'usuarios', component: UsuarioComponent, data: { title: 'Usuarios' }},
-      { path: 'mascotas', component: MascotaComponent, data: { title: 'Mascotas' }} 
-      /* Inserte nuevos menus aqui */    
+      { path: 'mascotas', component: MascotaComponent, data: { title: 'Mascotas' }},
+      { path: 'clientes', component: ClienteComponent, data: { title: 'Clientes' }},
+      { path: 'razas', component: RazaComponent, data: { title: 'Razas' }}
+      /* Inserte nuevos menus aqui */
     ]
   },
   { path: '**', redirectTo: 'inicio' }
